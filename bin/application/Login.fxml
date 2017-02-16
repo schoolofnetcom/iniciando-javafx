@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane id="Login" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Login" stylesheets="@./application.css">
+	<AnchorPane >
+		<TextField fx:id="username" layoutX="65.0" layoutY="54.0" ></TextField>
+		<PasswordField fx:id="password" layoutX="65.0" layoutY="94.0"></PasswordField>
+		<Button id="btnLogin" onAction="#login" text="Login" layoutX="65.0" layoutY="150.0"></Button>
+	</AnchorPane>
+</StackPane>
